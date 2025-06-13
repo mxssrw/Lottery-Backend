@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/api/lottery', function () {
+Route::get('/api/greet', function () {
     return response()->json(['message' => 'Hi Laravel']);
 });
 
